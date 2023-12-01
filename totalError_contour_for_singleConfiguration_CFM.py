@@ -1,6 +1,6 @@
 from matplotlib import pyplot as plt
 import numpy as np
-from EURP_CURVEFITMETHOD import Angles
+from Pytot_CFM import Angles
 import math as m
 
 def fmt(x):

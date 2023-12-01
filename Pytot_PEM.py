@@ -496,5 +496,5 @@ class Sphere():
 
 if __name__ == "__main__":
     study_directory = "studies/PitotProbe"
-    sphere1 = Sphere(study_directory,"input_EURP.json",alpha=5,beta=2.5)
+    sphere1 = Sphere(study_directory,"input_Pytot.json",alpha=5,beta=2.5)
     sphere1.run()

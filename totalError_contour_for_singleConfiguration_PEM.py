@@ -1,6 +1,6 @@
 from matplotlib import pyplot as plt
 import numpy as np
-from EURP_PEM import Sphere
+from Pytot_PEM import Sphere
 import math as m
 import csv
 
@@ -46,7 +46,7 @@ if __name__ == "__main__":
                 for j in range(len(betas)):
                     
                     study_directory = "studies/PitotProbe"
-                    program = Sphere(study_dir,"input_EURP.json",alpha=alphas[i],beta=betas[j])
+                    program = Sphere(study_dir,"input_Pytot.json",alpha=alphas[i],beta=betas[j])
                     a, b, aError, bError = program.run()
                     # aError = i
                     # bError = j
